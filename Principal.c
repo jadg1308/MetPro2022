@@ -1,5 +1,7 @@
 #include<stdio.h>
+#include"Funciones.c"
 
+void evaluarDivisibilidad(int num, int div);
 int main(int argc, char const *argv[])
 {
     int num, div;
@@ -7,7 +9,6 @@ int main(int argc, char const *argv[])
     scanf("%i", &num);
     printf("Digite otro numero: ");
     scanf("%i", &div);
-    if(num%div == 0) printf("%i es divisible por %i\n", num, div);
-    else printf("%i no es divisible por %i \n", num, div);
+    evaluarDivisibilidad(num, div);
     return 0;
 }
