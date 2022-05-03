@@ -1,0 +1,1 @@
+"Ejercicios en la clase de MetPro del día 3 de mayo del 2022
