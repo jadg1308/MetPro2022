@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "Funciones.c"
-#include "Menu.c"
-#include "EvaluarNota.c"
+
 
 void evaluarDivisibilidad(int num, int div);
 void superacionExamen(int nota);
@@ -15,7 +14,7 @@ int main(int argc, char const *argv[])
     {
         imprimirMenu();
         scanf("%i", &op);
-        switch (op)
+        switch(op)
         {
         case 1:
             printf("Digite el primer valor: ");
